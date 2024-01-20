@@ -4,7 +4,7 @@ function Resturent() {
   return (
     <>
       <div className="resturent">
-        <input type="search"></input>
+        <input type="search" placeholder="Search..."></input>
       </div>
       <Card />
     </>

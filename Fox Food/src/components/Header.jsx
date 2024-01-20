@@ -3,7 +3,7 @@ function Header({ home, menu, contact, about, cart, url, img }) {
   return (
     <>
       <nav className="navbar">
-        <img className="logo" src="src/images/fox-logo.png" />
+        <img className="logo" src="src/images/fox-logo1.png" />
         <ul>
           <li>{home}</li>
           <li>{menu}</li>
