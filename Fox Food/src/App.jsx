@@ -7,6 +7,7 @@ function App() {
     <>
       <Header {...navBar}/>
       <Body/>
+       
     </>
   );
 }
