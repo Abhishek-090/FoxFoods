@@ -1,13 +1,12 @@
-
-import Header from './components/Header';
-import Body from './components/Body';
-import{ navBar }from './Data/header';
+import "./style.css"
+import Header from "./components/Header";
+import Body from "./components/Body";
+import { navBar } from "./Data/header";
 function App() {
   return (
     <>
-      <Header {...navBar}/>
-      <Body/>
-       
+      <Header {...navBar} />
+      <Body />
     </>
   );
 }

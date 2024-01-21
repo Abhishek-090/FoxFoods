@@ -1,4 +1,4 @@
-import "./style.css";
+
 function Header({ home, menu, contact, about, cart, url, img }) {
   return (
     <>
