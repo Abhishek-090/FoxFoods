@@ -224,7 +224,6 @@ span:nth-child(3) {
   transform: scale(1.1);
   cursor: pointer;
 }
- 
 
 .foot-sec-1 ul {
   margin-top: 10px;
@@ -301,4 +300,38 @@ span:nth-child(3) {
 }
 .footer li {
   padding: 5px;
+}
+
+/* FoodCarousel */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  gap: 20px;
+}
+.row .title {
+  margin-top: 10px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.row img {
+  display: block;
+  width: 170px;
+  padding-top: 25px;
+}
+
+/* ===== Scrollbar CSS ===== */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #ff8040 #fff;
 }
