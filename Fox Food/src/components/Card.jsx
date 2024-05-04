@@ -12,7 +12,7 @@ function Card() {
             <h4>{cards.info.name}</h4>
             <li className="rating">
               <img src={RATING} /> <span>{cards.info.avgRating} .</span>  
-              <span>{cards.info.deliveryTime + " mins"}</span>
+              <span>{cards.info.sla.deliveryTime + " mins"}</span>
             </li>
             <li>{cards.info.cuisines.join(", ")}</li>
           </ul>
