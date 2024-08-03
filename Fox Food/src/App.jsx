@@ -1,12 +1,11 @@
 import "./style.css"
+import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
-import Body from "./components/Body";
-import { navBar } from "./Data/header";
 function App() {
   return (
     <>
-      <Header {...navBar} />
-      <Body />
+      <Header />
+      <Outlet />
     </>
   );
 }
