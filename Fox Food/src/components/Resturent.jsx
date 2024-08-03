@@ -1,3 +1,4 @@
+import React from "react";
 import Card from "./Card";
 import FoodCarousel from "./FoodCarousel";
 
@@ -7,7 +8,7 @@ function Resturent() {
       <div className="resturent">
         {/* <input type="search" placeholder="Search..."></input> */}
       </div>
-      <FoodCarousel />
+      <FoodCarousel/>
       <Card />
     </>
   );

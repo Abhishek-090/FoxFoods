@@ -1,3 +1,4 @@
+import React from 'react';
 import Resturent from './Resturent';
 import Footer from './Footer';
 
