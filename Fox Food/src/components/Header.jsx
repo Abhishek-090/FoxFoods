@@ -6,7 +6,7 @@ function Header() {
         <img className="logo" src="src/images/fox-logo1.png" />
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Homes</Link>
           </li>
           <li>
             <Link to="/menu">Menu</Link>
