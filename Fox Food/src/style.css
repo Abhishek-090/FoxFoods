@@ -57,6 +57,7 @@ h4 {
 }
 
 .navbar ul li a {
+  display: block;
   text-decoration: none;
   color: #fff;
 }
